@@ -1,0 +1,84 @@
+{
+  "contract_revision": 2,
+  "core_version": "0.1.0",
+  "mode": "event_driven_on_authorized_invocation",
+  "intake": {
+    "open_taxonomy": true,
+    "resolve_identity_before_create": true,
+    "event_kinds": [
+      "new_deliverable",
+      "existing_work_delta",
+      "question_or_observation",
+      "business_decision",
+      "meeting_action",
+      "priority_change",
+      "defect_or_regression",
+      "capability_change",
+      "method_feedback",
+      "unclassified"
+    ],
+    "new_deliverable": "create_stable_id_and_source_link_only_for_distinct_authorized_outcome",
+    "unclear": "investigate_first_ask_only_material_missing_information",
+    "preserve": [
+      "completed_scope",
+      "accepted_history",
+      "human_inputs",
+      "business_authority"
+    ]
+  },
+  "replan": {
+    "triggers": [
+      "new_or_changed_work",
+      "real_result",
+      "new_decision",
+      "dependency_changed",
+      "priority_or_calendar_changed",
+      "tool_or_source_availability",
+      "material_quality_or_method_feedback"
+    ],
+    "scope": "affected_frontier_and_dependents_only",
+    "interrupt": "checkpoint_safe_boundary_reconcile_unknown_effect_before_switch",
+    "resume": "same_work_id_latest_revision_and_saved_output"
+  },
+  "learn": {
+    "observation": "actual outcome_or_user_feedback_or_observed_friction",
+    "record": [
+      "source_or_receipt",
+      "context",
+      "problem",
+      "old_method_revision",
+      "proposed_delta",
+      "scope",
+      "expected_benefit",
+      "evidence_or_check",
+      "decision_owner",
+      "status",
+      "rollback_reference",
+      "next_reuse"
+    ],
+    "states": [
+      "OBSERVED",
+      "CANDIDATE",
+      "APPLIED_SCOPED",
+      "VERIFIED_REUSABLE",
+      "REJECTED_OR_ROLLED_BACK"
+    ],
+    "promotion": "check_actual_relevant_outcome_before_general_reuse; one_success_does_not_prove_universal_method",
+    "reuse": "read_relevant_latest_method_at_next_occurrence",
+    "no_auto_mutation": [
+      "business_policy",
+      "locked_decisions",
+      "permissions",
+      "accepted_results",
+      "core_code_without_change_review"
+    ],
+    "measurement": "only_observed_effort_rework_quality_or_feedback_no_invented_metrics"
+  },
+  "persistence": {
+    "root": "current operating decisions and pointers",
+    "engine": "versioned reusable methods and bounded learning receipts",
+    "run": "current plan frontier and occurrence context",
+    "workbook": "single work state and journal; human views",
+    "artifacts": "actual output and evidence refs; no duplicate task master"
+  }
+}

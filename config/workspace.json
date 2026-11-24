@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "authority": "Drive current state; Git code and technical contracts",
+  "root": "https://docs.google.com/document/d/1dUr-NivWjQXDaRaJdvBaTMTwzY62yyjqOy1B1cVfLgk/edit",
+  "engine": "https://docs.google.com/document/d/1QnKIsjpOlHHanrfg95EitYn5x0GS2G5E8XVY5gQXx3c/edit",
+  "run": "https://docs.google.com/document/d/1kArPW1lkVozIMOuHgmBxs47Ev81okTL52VtmGZuo-og/edit",
+  "workspace": "https://drive.google.com/drive/folders/1IlAmbGB9apK8_Flv17se1LQmM2oENMFt",
+  "board": "https://docs.google.com/spreadsheets/d/1y5TzSxxxGsiRXMhAZgO-KwhMjdoTWyj-bEBNIxIM11c/edit",
+  "foundry_reference": "https://github.com/VOSYDUNG/Shin-Operator-Foundry/tree/c777cb055a7f3a44e862541bfb4e35d02984f7d2"
+}

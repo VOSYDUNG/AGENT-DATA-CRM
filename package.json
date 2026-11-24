@@ -1,0 +1,13 @@
+{
+  "name": "agent-data-crm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable deterministic execution guard and native-host contract",
+  "main": "src/engine.cjs",
+  "scripts": {
+    "test": "node test/engine.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
