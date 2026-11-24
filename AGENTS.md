@@ -4,6 +4,8 @@
 Independent project, not a Foundry subproject. Work with authorized native tools only; no AIOS, no fixed machine or model. Drive is canonical for business work, current decisions, execution packages and outputs. Git is for versioned code and reusable technical contracts. Do not add parallel trackers or store raw operational/customer data here.
 
 ## Restore before acting
+For first use on the company seat, read [START-HERE.md](START-HERE.md), verify actual connected accounts and required capabilities, reconcile the plan with the user, then proceed with the current ROOT/RUN checkpoint. The bootstrap is not a global acceptance gate or a second state store.
+
 1. Read ROOT: https://docs.google.com/document/d/1dUr-NivWjQXDaRaJdvBaTMTwzY62yyjqOy1B1cVfLgk/edit
 2. Read Engine: https://docs.google.com/document/d/1QnKIsjpOlHHanrfg95EitYn5x0GS2G5E8XVY5gQXx3c/edit
 3. Read RUN: https://docs.google.com/document/d/1kArPW1lkVozIMOuHgmBxs47Ev81okTL52VtmGZuo-og/edit
