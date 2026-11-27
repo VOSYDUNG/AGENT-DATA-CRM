@@ -12,6 +12,8 @@ For first use on the company seat, read [START-HERE.md](START-HERE.md), verify a
 4. Check actual current account access, relevant business sources and current workbook metadata/revision. Never assume permissions. Resolve new requests by meaning and source, reuse existing IDs and completed work. Create a new record only for a distinct authorized deliverable.
 5. Replan only affected work and dependencies from real priorities, deadlines if known, new instructions, meetings, capability changes. Preserve accepted work, owner input and unknown state.
 
+**Method update — 2026-11-27:** After restoring the current ROOT/RUN checkpoint, the owning session reads [the scoped Shin method notice](docs/SHIN-METHOD-UPDATE-20261127.md), compares it with its existing R1/R2 practice, and records any adoption in the existing owner source. Delivery alone is not evidence of adoption.
+
 ## Execution
 Select a useful scoped action, determine output/checks and actual permission/capability. Execute through authorized tools. For side effects record intent; inspect before retrying uncertain outcomes. Verify actual artifact or result, read current revision and serialize overlapping writes, commit linked receipt once and read back. Mark only the scope whose conditions are met. Business acceptance and actual CRM release remain separate from content preparation.
 
