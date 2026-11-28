@@ -78,7 +78,15 @@
     "root": "current operating decisions and pointers",
     "engine": "versioned reusable methods and bounded learning receipts",
     "run": "current plan frontier and occurrence context",
-    "workbook": "single work state and journal; human views",
+    "workbook": "CRM group sheets own authoring and branch state; daily and overview are derived; the journal records events",
     "artifacts": "actual output and evidence refs; no duplicate task master"
+  },
+  "method": {
+    "source_revision": "dad393eeb02ba8fd295d906ba6c7d6fb061e7921",
+    "package_at_source": "5.1.0-alpha.4",
+    "scope": "apply_to_the_current_assignment_under_its_owner",
+    "formation": "authorized_inquiry_and_drafts_can_proceed",
+    "delivery": "reconcile_affected_sources_and_unknown_effects_before_retry",
+    "evidence": "distinguish_artifact_checks_owner_acceptance_and_observed_use"
   }
 }

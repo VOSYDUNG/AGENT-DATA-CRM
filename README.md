@@ -1,14 +1,10 @@
 # AGENT DATA CRM
 
-Dự án độc lập. Native AI host thực thi theo quyền thực tế, Drive giữ trạng thái và đầu ra. Foundry chỉ là tài liệu tham chiếu R1/R2; không phải repository cha hay nơi thực thi. Không sử dụng AIOS.
+Bộ điều phối tiếp nhận công việc công ty thuộc trách nhiệm của người sử dụng. Mỗi việc tiếp tục ở nguồn được giao và theo quyền của người phụ trách. Git giữ mã và hợp đồng kỹ thuật.
 
-## Bắt đầu ở ChatGPT công ty
+## Tiếp tục công việc
 
-**Lần đầu trên tài khoản công ty:** đọc [START-HERE.md](START-HERE.md), thực hiện healthcheck 08:00–08:30, đối soát kế hoạch với người dùng rồi tiếp tục checkpoint hiện hành trong ROOT/RUN. Không dùng ngày trên file làm trạng thái vĩnh viễn.
-
-Đọc [ROOT](https://docs.google.com/document/d/1dUr-NivWjQXDaRaJdvBaTMTwzY62yyjqOy1B1cVfLgk/edit) trước; đọc [Engine](https://docs.google.com/document/d/1QnKIsjpOlHHanrfg95EitYn5x0GS2G5E8XVY5gQXx3c/edit) và [RUN](https://docs.google.com/document/d/1kArPW1lkVozIMOuHgmBxs47Ev81okTL52VtmGZuo-og/edit) theo chỉ dẫn. Yêu cầu "Bắt đầu ngày làm việc. Đọc trạng thái hiện hành và tự thực hiện phần có thể làm." Không giả định quyền tài khoản cũ. Kế thừa checkpoint mới nhất trên Drive, không coi ngày hoặc trạng thái trong Git là hiện hành.
-
-[Workspace](https://drive.google.com/drive/folders/1IlAmbGB9apK8_Flv17se1LQmM2oENMFt) chứa đầu ra và gói việc. [Bàn làm việc](https://docs.google.com/spreadsheets/d/1y5TzSxxxGsiRXMhAZgO-KwhMjdoTWyj-bEBNIxIM11c/edit) chỉ phục vụ quan sát và đầu vào tùy chọn. Không sao chép tracker hay dữ liệu nghiệp vụ vào Git.
+Đọc [hướng dẫn khởi động](START-HERE.md), rồi mở phần đang có hiệu lực trong ROOT và RUN trên Drive. Agent tự kiểm quyền cần cho việc trước mắt, đọc phần đã làm và chọn bước tiếp theo theo yêu cầu thực tế. Với việc CRM, mở dòng trong sheet nhóm để soạn hoặc kiểm trạng thái. Hôm nay và Tổng quan là các trang dẫn xuất.
 
 ## Kỹ thuật
 
@@ -23,4 +19,4 @@ ChatGPT có thể thực thi trực tiếp bằng công cụ native theo cùng c
 
 ## Nguồn phương pháp
 
-[Foundry R1/R2 đã cố định phiên bản](https://github.com/VOSYDUNG/Shin-Operator-Foundry/tree/c777cb055a7f3a44e862541bfb4e35d02984f7d2) — chỉ tham chiếu, không thay đổi hoặc phụ thuộc quyền đọc repo đó để bắt đầu.
+R1/R2 dùng phiên bản phương pháp tương ứng NNC OSER 5.1.0-alpha.4. [Thông báo phương pháp đã ghim](docs/SHIN-METHOD-UPDATE-20261127.md) dẫn tới bản nguồn và hướng dẫn dùng khi ghế hiện tại chỉ có quyền đọc tài liệu của dự án.
